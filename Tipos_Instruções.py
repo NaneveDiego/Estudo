@@ -8,6 +8,10 @@ Dados são as informações a serem processadas por um computador
 
 Em python temos várias categorias de tipos de dados
 
+
+
+-F-
+
 Texto, literal, alfanumérico ou string -> str
 Numéricos -> int, float, complex
 Sequencia - > list, tuple, range
@@ -18,7 +22,7 @@ Binário -> bytes, bytearray, memoryview
 None -> NoneType
 
 """
-
+""" 
 #exemplos
 
 #Texto str
@@ -39,6 +43,8 @@ print(x)
 x = 1j 
 print(x)
 
+"""
+
 """ 
 Variáveis são contêineres para armazenar valores de dados.
 
@@ -48,11 +54,14 @@ a variavel é criada no momento que é atribuida a um valor
 Exemplo
 """
 
+"""
+
 c = 5
 y = "John"
 print(x)
 print(y)
 
+"""
 
 """ 
 Regras da variavel
@@ -70,5 +79,77 @@ PI = 3.14159
 EULER_NUMBER = 2.71828
 
 
+-F-
+Operadores
+
+Operadores são usados para realizar operações matemáticas ou atribuir variavies
+
+Em python temos vários tipos de operadores
+
+Aritméticos
+Atribuição
+Comparação
+Lógicos
+Identidade
+Associação
+bit a bit
+
+
+
+
+Operadores Aritméticos
+
++ adição
+- subtração
+* multiplicação
+/ divisão
+% modulo (ou resto)
+** exponenciação
+// divisão apromixada
+
+
+Operadores de atribuição
+
+=   x=5  x recebe 5
++=  x+=3  x= x+3
+-=  x-=3  x= x-3
+*=  x*=3  x= x*3
+/=  x/=3  x= x/3
+
+
+
+
+
+Instruções
+São o conjunto de palavras-chaves de uma linguagem de programação que tem como finalidade
+comandar, em um computador, o funcionamento e o tratamento dos dados armazenados
+
+Vamos utilizar input() para entrada de dados
+e print() para saida de dados
+
+exemplo:
+
+
 """
+
+"""
+
+#Calculo da area de uma circunferencia
+PI = 3.14159
+R = float(input("Insira o r em metros:\n"))
+Area = PI*R**2
+print(Area)
+
+"""
+
+ht = int(input("Horas trabalhadas:\n"))
+vh = float(input("Valor da hora aula:\n"))
+pd = float(input("Percentual de desconto:\n"))
+
+sb = ht * vh
+td = (pd/100)*sb
+sl = sb - td
+
+print(sb,sl)
+
 
